@@ -20,7 +20,7 @@ const frontend = "https://dooper-frontend.onrender.com"
 const localfrontend = "http://localhost:3000"
 
 const corsOptions = {
-  origin: localfrontend,
+  origin: frontend,
   credentials: true,
   optionSuccessStatus: 200,
 };
